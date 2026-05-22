@@ -2,6 +2,8 @@
 
 Use this service from GitHub-rendered links, such as `contact_links` in `.github/ISSUE_TEMPLATE/config.yml`, to redirect to a path in the same repository.
 
+It is especially useful for, and made for, [GitHub default community health files](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file), where the same config can be shared across repositories in an organization.
+
 When users click it, the browser includes a `Referer` header used to determine the GitHub repository.
 
 Set a query parameter `path` with the desired path in the repository.

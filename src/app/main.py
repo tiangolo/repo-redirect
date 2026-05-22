@@ -123,6 +123,11 @@ async def read_root() -> str:
       to redirect to a path in the same repository.
     </p>
     <p>
+      It is especially useful for, and made for,
+      <a href="https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file">GitHub default community health files</a>,
+      where the same config can be shared across repositories in an organization.
+    </p>
+    <p>
       When users click it, the browser includes a <code>Referer</code> header used to determine the GitHub repository.
     </p>
     <p>Set a query parameter <code>path</code> with the desired path in the repository.
